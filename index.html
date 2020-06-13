@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Technical Documentation Page</title>
+</head>
+<body>
+   <nav id="navbar">
+      <header>Introduction to HTML</header>
+      <a href="#What_is_HTML?" class="nav-link">What is HTML?</a>
+      <a href="#HTML_Documents" class="nav-link">HTML Documents</a>
+      <a href="#HTML_Headings" class="nav-link">HTML Headings</a>
+      <a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a>
+      <a href="#HTML_Links" class="nav-link">HTML Links</a>
+   </nav>
+   <main id="main-doc">
+      <section class="main-section" id="What_is_HTML?">
+         <header>What is HTML?</header>
+         <p>HTML stands for Hyper Text Markup Language and is responsible for describing the structure of a web page. HTML is made up of various elements which tell the browser how to display the content. These elements are represented by tags.</p>
+         <p>Here are some examples of html tags:</p>
+         <ul>
+            <li>The !DOCTYPE declaration defines this document to be HTML5.</li>
+            <li>The html element is the root element of an HTML page.</li>
+            <li>The head element contains meta information about the document.</li>
+            <li>The title element specifies a title for the document.</li>
+            <li>The body element contains the visible page content.</li>
+            <li>The h1 element defines a large heading.</li>
+            <li>The p element defines a paragraph.</li>
+         </ul>
+         <p>Here is an example of how html is structured:</p>
+         <code><p id="code-snippet">
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &lt;body&gt;<br>
+            <br>
+            &lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+            <br>
+            &lt;p&gt;My first paragraph.&lt;/p&gt;<br>
+            <br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+         </p></code>
+         <p>To make your life as a learning developer easier you can use a program called an IDE which allow you to manage your workflow as well as making day to day coding a whole lot easier. As a beginner I recommend Visual Studio Code.</p>
+         <p>Developed and maintained by Microsoft VS Code is widely used by developers accross the globe due to its flexibility in extensions and theme customisation as well as built in Git commands and debuggin capabilities.</p>
+         <p>Initially when getting started with VS Code I recommend taking a look at the <a href="https://code.visualstudio.com/docs">Documentation</a> which will help ease you into the user interface as well as key bindings and some useful tips and tricks to make your life easier in your day to day usage.</p>
+      </section>
+      <section class="main-section" id="HTML_Documents">
+         <header>HTML Documents</header>
+         <p>The DOCTYPE declaration represents the document type and helps browsers display web pages correctly. This decleration should only appear once on every page before any other code.</p>
+         <p>This is the DOCTYPE declaration for HTML5:</p>
+         <code><p id="code-snippet">
+            &lt;!DOCTYPE html&gt;
+         </p></code>
+         <p>All HTML documents must begin and end with html tags. However, bear in mind that only the content within the body tags will be visible on the webpage.</p>
+         <p>These are the html and body tags for HTML5:</p>
+         <code><p id="code-snippet">
+            &lt;html&gt;&lt;/html&gt;
+         </p></code>
+         <code><p id="code-snippet">
+            &lt;body&gt;&lt;/body&gt;
+         </p></code>
+      </section>
+      <section class="main-section" id="HTML_Headings">
+         <header>HTML Headings</header>
+         <p>HTML headings are used as headings for content within a web page, their importance is indicated by the number within the tag, see below for the first three headings.</p>
+         <code><p id="code-snippet">
+            &lt;h1&gt;This is Heading 1&lt;/h1&gt;<br>
+            &lt;h2&gt;This is Heading 2&lt;/h2&gt;<br>
+            &lt;h3&gt;This is Heading 3&lt;/h3&gt;<br>
+         </p></code>
+      </section>
+      <section class="main-section" id="HTML_Paragraphs">
+         <header>HTML Paragraphs</header>
+         <p>The main text/content within a web page is defined in a paragraph.</p>
+         <code><p id="code-snippet">
+            &lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sit.&lt;/p&gt;<br>
+            &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis fugit nobis sint sed dolores in nihil laborum alias unde!&lt;/p&gt;<br>
+         </p></code>
+      </section>
+      <section class="main-section" id="HTML_Links">
+         <header>HTML Links</header>
+         <p>HTML links are defined with the a tag. The link's destination in specified within the href attribute. Attributes are used to provide additional information about HTML elements.</p>
+         <code><p id="code-snippet">
+            &lt;a href="https://www.freecodecamp.org"&gt;This is a link to freeCodeCamp&lt;/a&gt;
+         </p></code>
+      </section>
+   </main>
+</body>
+</html>
